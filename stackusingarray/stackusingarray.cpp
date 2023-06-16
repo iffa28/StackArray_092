@@ -69,8 +69,10 @@ int main(){
             cin >> ch;
             switch (ch) {
             case '1': {
-                
-                obj.push();
+                int data;
+                cout << "Masukkan data" << endl;
+                cin >> data;
+                obj.push(data);
                 break;
             }
             case '2':
