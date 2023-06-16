@@ -44,7 +44,7 @@ public:
 
     void display() {
         if (empty()) {
-            cout << "Stack is empty." << endl;
+            cout << "Stack is empty." << endl; 
         }
         else {
             for (int tmp = top; tmp >= 0; tmp--) {
