@@ -29,7 +29,7 @@ public:
 
     void pop() {
         if (empty()) { // step 1
-            cout << "Stack is empty. Cannot pop." << endl;     //1.a
+            cout << "Stack is empty. Cannot pop." << endl;      //1.a
             return;   //1.b
         }
 
